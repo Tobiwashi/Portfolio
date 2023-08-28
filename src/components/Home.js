@@ -28,7 +28,6 @@ function Home() {
             <div className='certifications'>
                 <img className='cert-img' src='/images/AWS-CP.png' alt='Cloud Practitioner Certification'></img>
             </div>
-            <hr className='w-75'></hr>
             <h2 className='skills-text'>When I'm not coding</h2>
             <ImgSLider></ImgSLider>
         </>
