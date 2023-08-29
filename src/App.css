@@ -1,3 +1,30 @@
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.welcome,
+.avatar,
+.about-me,
+.about-items,
+.about-text,
+.about-subtext,
+.certifications,
+.certification-text,
+.skills-text,
+.slider,
+.w-75,
+.project {
+    /* This section calls the slideInFromLeft animation we defined above */
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+
 body {
     background-color: rgb(80, 80, 80);
     overflow-x: hidden;
@@ -175,8 +202,10 @@ h2 {
 }
 
 .avatar {
-    height: 45%;
+    height: 55%;
     width: 45%;
+    border-radius: 50%;
+    border: 2px solid white;
 }
 
 @media (min-width: 768px) {
@@ -185,8 +214,8 @@ h2 {
     }
 
     .avatar {
-        height: 25%;
-        width: 25%;
+        height: 45%;
+        width: 45%;
     }
 }
 
@@ -204,8 +233,28 @@ h2 {
     padding: 15px;
     width: 75%;
     margin: 0 auto;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
     font-size: 18px;
+}
+
+.about-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.about-img {
+    width: 20%;
+    height: 20%;
+}
+
+@media (min-width: 768px) {
+    .about-img {
+        width: 12%;
+        height: 12%;
+    }
 }
 
 @media (min-width: 768px) {
@@ -302,4 +351,86 @@ h2 {
 
 .w-75 {
     width: 50%;
+}
+
+.project {
+    background-color: rgb(224, 224, 224);
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 50%;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 768px) {
+    .project {
+        width: 75%;
+    }
+}
+
+.project-img {
+    width: 25%;
+    margin-right: auto;
+}
+
+@media (max-width: 768px) {
+    .project-img {
+        width: 30%;
+    }
+}
+
+.project-text {
+    margin-left: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.text-black {
+    color: black;
+}
+
+.project-header {
+    margin-top: 72px;
+}
+
+.project-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.demo-items {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.project-icon {
+    width: 20%;
+    margin-right: 5px;
+}
+
+@media (min-width: 768px) {
+    .project-icon {
+        width: 12%;
+    }
+}
+
+
+.project-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    background-color: gray;
+    border: 4px;
+    border-radius: 8px;
+}
+
+.project-link:hover {
+    background-color: rgb(184, 184, 184);
 }

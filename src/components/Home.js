@@ -2,6 +2,7 @@ import '../App.css'
 import ImgSLider from './ImgSlider'
 
 function Home() {
+
     return (
         <>
             <div className='welcome'>
@@ -14,7 +15,7 @@ function Home() {
                 </h2>
             </div>
             <div className='about-me'>
-                <img className='avatar' src='/images/Avatar.png' alt='Avatar'></img>
+                <img className='avatar' src='/images/Avatar.JPG' alt='Avatar'></img>
             </div>
             <h3 className='about-text'>About Me</h3>
 
@@ -22,7 +23,16 @@ function Home() {
                 I'm Tobi Igberase, a software engineer based in the Richmond Metropolitan Area. I have a passion
                 for problem-solving, innovation, and automation. My skills include but are not limited to Fullstack
                 Development, SQL and NoSQL Database Querying/Management, Data Structures and Algorithms, and Cloud Computing.
+                I am most skilled in OOP specifically Python and Python frameworks such as Django and Flask. I also have experience
+                with other languages/frameworks such as Javascript, React, Node, and Express. I am also Knowledgable in RDMS using both
+                SQL databases such as MySQL and PostgreSQL, as well as NoSQL databases such as MongoDB and Firebase
             </h4>
+            <div className='about-items'>
+                <img className='about-img' src='/images/Python.Png' alt='Python icon'></img>
+                <img className='about-img' src='/images/Javascript.Png' alt='Javascript Icon'></img>
+                <img className='about-img' src='/images/React.Png' alt='React Icon'></img>
+                <img className='about-img' src='/images/MySQL.Png' alt='MySQL Icon'></img>
+            </div>
             <h2 className='skills-text'>Certifications</h2>
             <hr className='w-75'></hr>
             <div className='certifications'>
