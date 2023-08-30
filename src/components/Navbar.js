@@ -13,7 +13,7 @@ function Navbar(props) {
                 </div>
                 <div className="nav-items">
                     <Link className="nav-items" to='/Projects'>
-                        <img className="icon" src="images/home-icon.png" alt="Home Icon"></img>
+                        <img className="icon" src="images/project-icon.png" alt="Home Icon"></img>
                         <span>Projects</span>
                     </Link>
 
