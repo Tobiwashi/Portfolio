@@ -1,10 +1,12 @@
 @keyframes slideInFromLeft {
     0% {
         transform: translateX(-100%);
+        transform: opacity(0);
     }
 
     100% {
         transform: translateX(0);
+        transform: opacity(1);
     }
 }
 
@@ -367,6 +369,9 @@ h2 {
 @media (max-width: 768px) {
     .project {
         width: 75%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -378,6 +383,7 @@ h2 {
 @media (max-width: 768px) {
     .project-img {
         width: 30%;
+        margin: 0 auto;
     }
 }
 
@@ -430,6 +436,7 @@ h2 {
     background-color: gray;
     border: 4px;
     border-radius: 8px;
+    padding: 2px;
 }
 
 .project-link:hover {
@@ -437,34 +444,28 @@ h2 {
 }
 
 @media (max-width: 1000px) {
-    .demo-text {
-        display: none;
-    }
 
     .project-link {
-        background-color: rgb(224, 224, 224);
+        background-color: gray;
+        justify-content: space-evenly;
     }
 
     .project-icon {
-        width: 30%;
-        background-color: gray;
-        padding: 12px;
+        width: 20%;
+        padding: 10px;
         border: 4px;
         border-radius: 8px;
+        margin-left: -7px;
+        margin-right: -9px;
     }
 
     .project-icon:hover {
         background-color: rgb(184, 184, 184);
     }
 
-    .project-link:hover {
-        background-color: rgb(224, 224, 224);
-    }
-
     .project-links {
         padding: 1px;
-        width: 70%;
-        justify-content: space-evenly;
+        justify-content: center;
     }
 
     .demo-items {
