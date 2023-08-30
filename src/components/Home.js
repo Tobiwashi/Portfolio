@@ -28,10 +28,10 @@ function Home() {
                 SQL databases such as MySQL and PostgreSQL, as well as NoSQL databases such as MongoDB and Firebase
             </h4>
             <div className='about-items'>
-                <img className='about-img' src='/images/Python.Png' alt='Python icon'></img>
-                <img className='about-img' src='/images/Javascript.Png' alt='Javascript Icon'></img>
-                <img className='about-img' src='/images/React.Png' alt='React Icon'></img>
-                <img className='about-img' src='/images/MySQL.Png' alt='MySQL Icon'></img>
+                <img className='about-img' src='/images/Python.png' alt='Python icon'></img>
+                <img className='about-img' src='/images/Javascript.png' alt='Javascript Icon'></img>
+                <img className='about-img' src='/images/React.png' alt='React Icon'></img>
+                <img className='about-img' src='/images/MySQL.png' alt='MySQL Icon'></img>
             </div>
             <h2 className='skills-text'>Certifications</h2>
             <hr className='w-75'></hr>

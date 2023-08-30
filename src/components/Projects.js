@@ -30,24 +30,24 @@ function Projects() {
                     </h5>
                     <div className='project-links'>
                         <div className='demo-items'>
-                            <a className='black project-link' href='http://disneyplusclone.com.s3-website-us-east-1.amazonaws.com/home'><img className='project-icon' src='/images/Code.svg' alt='Github Icon'></img><h4>Demo</h4></a>
+                            <a className='black project-link' href='http://disneyplusclone.com/'><img className='project-icon' src='/images/Code.svg' alt='Github Icon'></img><h4 className='demo-text'>Demo</h4></a>
                         </div>
                         <div className='demo-items'>
-                            <a className='black project-link' href='https://github.com/Tobiwashi'><img className='project-icon' src='/images/Github.svg' alt='Github Icon'></img><h4>Code</h4></a>
+                            <a className='black project-link' href='https://github.com/Tobiwashi'><img className='project-icon' src='/images/Github.svg' alt='Github Icon'></img><h4 className='demo-text'>Code</h4></a>
                         </div>
                     </div>
                 </div>
             </div>
             <Slider className='slider' {...settings} >
                 <div className='slider-item'>
-                    <img className='slider-img' src='images/DisneyPlus1.jpg' alt='Gaming IMG'></img>
+                    <img className='slider-img' src='images/DisneyPlus1.jpg' alt='Project Showcase'></img>
 
                 </div>
                 <div className='slider-item'>
-                    <img className='slider-img' src='images/DisneyPlus2.jpg' alt='Basketball IMG'></img>
+                    <img className='slider-img' src='images/DisneyPlus2.jpg' alt='Project Showcase'></img>
                 </div>
                 <div className='slider-item'>
-                    <img className='slider-img' src='images/DisneyPlus3.jpg' alt='Anime IMG'></img>
+                    <img className='slider-img' src='images/DisneyPlus3.jpg' alt='Project Showcase'></img>
                 </div>
             </Slider >
         </>
