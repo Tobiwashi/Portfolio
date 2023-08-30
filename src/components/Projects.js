@@ -33,7 +33,7 @@ function Projects() {
                             <a className='black project-link' href='http://disneyplusclone.com/'><img className='project-icon' src='/images/Code.svg' alt='Github Icon'></img><h4 className='demo-text'>Demo</h4></a>
                         </div>
                         <div className='demo-items'>
-                            <a className='black project-link' href='https://github.com/Tobiwashi'><img className='project-icon' src='/images/Github.svg' alt='Github Icon'></img><h4 className='demo-text'>Code</h4></a>
+                            <a className='black project-link github' href='https://github.com/Tobiwashi'><img className='project-icon' src='/images/Github.svg' alt='Github Icon'></img><h4 className='demo-text'>Code</h4></a>
                         </div>
                     </div>
                 </div>
